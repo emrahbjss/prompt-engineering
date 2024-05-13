@@ -71,7 +71,7 @@ const Form: React.FC = () => {
                 </label>
                 {formData.role === 'Other' && (
                     <label className="input-label">
-                        <span>User Role:</span>
+                        <span></span>
                         <input type="text" name="customRole" value={formData.customRole} onChange={handleChange} placeholder="Define your role" required />
                     </label>
                 )}
